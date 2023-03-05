@@ -44,8 +44,6 @@ img{
     margin-bottom: 30px;
 }
 
-
-
 /* main de todas las pages */
 
 .main__contenedor{
@@ -128,6 +126,11 @@ img{
 
 /* img de sobre nosotros */
 
+.main__formulario{
+    display: flex;
+    flex-direction: column;
+}
+
 .img__sobrenos2{
     max-width:  600px;
     max-height: 600px;
@@ -191,10 +194,7 @@ h5{
     height: auto;
     max-width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
-    /* vertical-align: middle; */
 }
-
 
 .boton__catalogo {
     color: #ffffff;
@@ -306,4 +306,34 @@ h5{
 
 .boton__modal__catalogo{
     background-color: transparent;
+}
+
+/* boton contacto */
+
+#button__form {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #8087af;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    height: 55px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+#button__form:hover {
+box-shadow: 7px 5px 56px -14px #2a3ca3;
+}
+
+#p__button__form{
+    background-color: #8087af ;
+    text-align: center;
+    padding: 0px;
 }
