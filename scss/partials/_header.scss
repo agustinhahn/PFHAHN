@@ -1,0 +1,49 @@
+@use './variables';
+
+.header__contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .logo{
+        width: 200px;
+        height: 150px;
+    }
+
+    .color__nav{
+        background-image: linear-gradient(to bottom, variables.$colornav1 , variables.$colornav2);
+        width: 100%;
+        a{
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 12px;
+            &:hover{
+                font-weight: bold;
+                transition: all 0.5s  ease-in;
+                transform:scale(1.05);
+                transition: all 0.3s  ease-out;
+                color: grey
+                }
+        }
+
+        .color__nav__catalogos{
+            border-bottom: 1px solid white
+        }
+        @media (min-width: 991.99px){
+            .div__nav{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .nav__separador{
+                    margin-right: 10px;
+                    padding-right: 10px;
+                    border-right: 1px solid #ccc;
+                    &:last-child{
+                        margin-right: 0;
+                        border-right: none;
+                    }
+                }
+            }
+        }
+    }
+}

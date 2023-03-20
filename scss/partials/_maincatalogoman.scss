@@ -1,0 +1,24 @@
+@use './variables';
+
+.main__contenedor__catalogom{
+    height: auto;
+    .card__content__catalogom{
+        padding: 1rem;
+        background-color: variables.$colorcardman;
+        .card__title__catalogom{
+            color: black;
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+            margin: 0px;
+        }
+        .card__text__catalogom{
+            color: black;
+            font-size: 0.875rem;
+            line-height: 1.5;
+            margin-bottom: 1.25rem;    
+            font-weight: 400;
+        }
+    }
+}

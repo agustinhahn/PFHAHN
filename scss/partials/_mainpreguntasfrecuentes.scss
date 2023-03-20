@@ -1,0 +1,20 @@
+.acordeon__pregfrec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div__pregfrec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .div__img__pregfrec{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .img__pregfrec{
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
