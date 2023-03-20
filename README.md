@@ -1,12 +1,12 @@
-# PreEntrega2HAHN
-Esta es la 2da preentrega del proyecto coderhouse
+# PreEntrega3HAHN
+Esta es la 3da preentrega del proyecto coderhouse
 
 Este es un proyecto de creación de una página web para una tienda de lencería digital utilizando las tecnologías HTML, CSS y Bootstrap.
 La página web estará diseñada con un fin mas funcional que estetico, intentando adaptarse a todo dispositivo en el que se quiera visualizar.
 
 Tecnologías utilizadas
 HTML: se utiliza para estructurar el contenido de la página web, como el título, los encabezados, los párrafos, las imágenes y los enlaces.
-CSS: se utiliza para dar estilo al contenido de la página web, como los colores, las fuentes, los tamaños y las posiciones de los elementos.
+CSS: se utiliza para dar estilo al contenido de la página web, como los colores, las fuentes, los tamaños y las posiciones de los elementos ademas de algunas animaciones y transiciones.
 Bootstrap: se utiliza para acelerar el desarrollo de la página web mediante el uso de componentes predefinidos y estilos de diseño.
 Estructura de la página web
 La página web se dividirá en varias secciones, incluyendo:
