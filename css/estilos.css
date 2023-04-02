@@ -54,7 +54,7 @@ body {
   .header__contenedor .color__nav .div__nav .nav__separador {
     margin-right: 10px;
     padding-right: 10px;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #6b72c0;
   }
   .header__contenedor .color__nav .div__nav .nav__separador:last-child {
     margin-right: 0;

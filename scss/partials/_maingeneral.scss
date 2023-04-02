@@ -1,7 +1,9 @@
+@use './variables';
+
 .main__contenedor{
     .h1__titulos{
         transition: all 0.5s ease;
-        font-family: 'IM Fell Great Primer SC', serif;
+        font-family: variables.$fontsdetitulosh1;
         &:hover{
             letter-spacing: 10px;
         }
