@@ -1,5 +1,5 @@
 # PreEntrega3HAHN
-Esta es la 3da preentrega del proyecto coderhouse
+Esta es la entrega final del proyecto de coderhouse
 
 Este es un proyecto de creación de una página web para una tienda de lencería digital utilizando las tecnologías HTML, CSS y Bootstrap.
 La página web estará diseñada con un fin mas funcional que estetico, intentando adaptarse a todo dispositivo en el que se quiera visualizar.
